@@ -1,0 +1,85 @@
+# gitを使う宣言
+git init
+
+# gitで管理したくないviはここに記述
+[vi] .gitignore
+
+# ユーザ登録
+git config --global user.email [MailAddress]
+git config --global user.name [UserName]
+
+# MailAddress : yamakuraesmsss@gmail.com
+# UserName    : ocokemmo
+
+# コミット準備
+# ファイルの状態確認
+git status
+
+# 差分を確認
+git diff
+# add後に差を確認
+git diff --cached
+
+# ステージングエリアにあげる
+git add [FileName]
+# ステージングエリアに今のディレクトリ以下のものをすべてあげる
+git add .
+
+# コミット
+# コメント付きでコミット
+git commit -m "[comment]"
+
+# ログを見る
+git log
+# どのファイルが変更されたか見たいとき
+git log --stat
+
+# origin登録
+git remote add origin https://github.com/ocokemmo/DataAnalysis.git
+
+# 共有リポジトリに反映
+git push -u origin master
+
+# masterを更新したいとき
+git status
+git diff
+git add .
+git status
+git commit -m "コメント"
+git push origin master
+
+#ブランチ切って更新
+# ブランチ作成
+git branch ブランチ名
+
+# ブランチ確認 （頭に * のついているのが現在のブランチ）
+git branch
+
+# ブランチ切り替え（移動）
+git checkout ブランチ名
+
+# 変更（ブランチ先にコミットしたりする）
+git status
+git diff
+git add .
+git status
+git commit -m "コメント"
+# リモートにPush
+git push origin ブランチ名
+
+##### 区切りが良くなって、マージしたくなった時 #####
+# マージ先(master)に移動
+git checkout master
+# さっき作成したブランチをマージ先にマージ
+git merge ブランチ名
+# ログ確認（さっきのブランチの変更内容がマージ先に反映されているか確認）
+git log
+# Pushする
+git push origin master
+# マージ後に削除
+git branch -d ブランチ名
+git push origin :ブランチ名
+
+# 変更を取り込みたいとき
+git checkout master
+git pull origin master
