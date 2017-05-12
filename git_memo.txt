@@ -35,7 +35,7 @@ git log
 git log --stat
 
 # origin登録
-git remote add origin https://github.com/ocokemmo/DataAnalysis.git
+git remote add origin https://github.com/ocokemmo/AtomWorkStation.git
 
 # 共有リポジトリに反映
 git push -u origin master
