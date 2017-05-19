@@ -1,0 +1,16 @@
+(function(){
+var s = "<"+"script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"><"+"/script>\n";
+s += "<"+"!-- criteoパスバック(qiita.com_items-show_under-article-mobile) -->\n";
+s += "<"+"ins class=\"adsbygoogle\"\n";
+s += "     style=\"display:inline-block;width:336px;height:280px\"\n";
+s += "     data-ad-client=\"ca-pub-8127218772604357\"\n";
+s += "     data-ad-slot=\"4181255876\"><"+"/ins>\n";
+s += "<"+"script>\n";
+s += "(adsbygoogle = window.adsbygoogle || []).push({});\n";
+s += "<"+"/script>\n";
+s += "<"+"div id=\'beacon_baaa85fe9c\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'>\n";
+s += "<"+"img width=\"0\" height=\"0\" src=\"https://ssum-sec.casalemedia.com/usermatchredir?s=183697&cb=https%3a%2f%2fdis.criteo.com%2frex%2fmatch.aspx%3fc%3d25%26uid%3d%25%25USER_ID%25%25\"/>\n";
+s += "<"+"img width=\"0\" height=\"0\" src=\"http://cat.jp.as.criteo.com/delivery/lg.php?cppv=1&cpp=FI%2Fh9nxkdDgwVEFKUitFWURDbTlRU05BblFGOUp4RTFqTlptWElzam85QWozNnZUUkUySnRqRTR4MVllZ3JQUlZoNThSRGs3UllXem9NaVVmMTFaVXJyVk4ydTlkd2NHV0dNQU9JdEZHelh2R25QVXJGamR6NTRJRzdXWGhSUW5rbmN0dEpHbkc3QVpFZ0tLKzVobUlVV2V0elMzbFZGVENJWWhwWTFuakxkcmVwNzY4N2NrQU1MSnpTL09TQWtnQ09VekdxOE5JUnlveFBlZTB6VG8xQWhkQ0ZCd2N2QTBZbDg1WWlhT3VYbEZLWlpiYTBoNFBQR2hGblpIeWlaR2VKYjlyfA%3D%3D\"/>\n";
+s += "<"+"/div>\n";
+s += "\n";
+document.write(s);})();
